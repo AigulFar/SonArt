@@ -1,0 +1,2 @@
+﻿event_id,event_name,event_type,date,day_of_week,start_time,duration_min,price_rub,target_age_min,target_age_max,institution_id,venue_id,capacity
+FUTURE_001,Новое мероприятие,Лекция,2026-10-10,Saturday,18:00,90,300,14,30,,,
