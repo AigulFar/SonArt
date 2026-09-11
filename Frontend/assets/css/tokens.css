@@ -1,0 +1,91 @@
+/*
+  СанАрт — Design tokens
+  Единственный источник цветов, шрифтов, отступов и форм.
+  Ничего из этого файла не должно дублироваться инлайново в разметке/компонентах.
+*/
+
+:root {
+  /* ---------- Color / surface ---------- */
+  --color-bg: #f5f5f2;
+  --color-surface: #ffffff;
+  --color-surface-muted: #ececE9;
+  --color-surface-sidebar: #f5f5f2;
+  --color-border: #e8e7e2;
+  --color-border-strong: #dcdbd5;
+
+  /* ---------- Color / text ---------- */
+  --color-text: #17171a;
+  --color-text-secondary: #8b8b92;
+  --color-text-tertiary: #b7b7bc;
+  --color-text-inverse: #ffffff;
+
+  /* ---------- Color / brand accents (сигналы, не декор) ---------- */
+  --color-accent-orange: #ff7a45;
+  --color-accent-orange-soft: #ffe1d1;
+  --color-accent-purple: #a78bfa;
+  --color-accent-purple-soft: #ece3ff;
+  --color-accent-blue: #6c9bf5;
+  --color-accent-blue-soft: #dfe9ff;
+  --color-accent-green: #7fbf8a;
+  --color-accent-green-soft: #e0f0e2;
+  --color-accent-gray: #c7c7cc;
+  --color-accent-gray-soft: #ececec;
+
+  --color-warning: #e8a13c;
+  --color-warning-soft: #fbecd4;
+  --color-black: #121214;
+
+  /* ---------- Radius ---------- */
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* ---------- Shadow ---------- */
+  --shadow-card: 0 1px 2px rgba(16, 16, 15, 0.04), 0 10px 24px rgba(16, 16, 15, 0.035);
+  --shadow-pop: 0 8px 20px rgba(16, 16, 15, 0.10), 0 2px 6px rgba(16, 16, 15, 0.06);
+
+  /* ---------- Spacing scale ---------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+
+  /* ---------- Typography ---------- */
+  --font-display: "Unbounded", "Manrope", system-ui, sans-serif;
+  --font-body: "Manrope", "Inter", system-ui, sans-serif;
+
+  --fs-xs: 11px;
+  --fs-sm: 12.5px;
+  --fs-base: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 28px;
+  --fs-2xl: 34px;
+  --fs-display: 46px;
+
+  --lh-tight: 1.05;
+  --lh-snug: 1.25;
+  --lh-normal: 1.5;
+
+  --tracking-wide: 0.08em;
+  --tracking-wider: 0.14em;
+
+  /* ---------- Layout ---------- */
+  --sidebar-width: 248px;
+  --topbar-height: 76px;
+  --content-max-width: 1440px;
+
+  /* ---------- Motion ---------- */
+  --ease-standard: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --duration-fast: 140ms;
+  --duration-base: 220ms;
+}

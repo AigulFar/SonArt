@@ -1,0 +1,13 @@
+/* СанАрт — специфичная раскладка страницы «Дашборд» */
+
+.dashboard-hero__title {
+  font-size: var(--fs-display);
+}
+
+.dashboard-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
