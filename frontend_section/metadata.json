@@ -1,0 +1,6 @@
+{
+  "name": "СанАрт — Аналитика для культуры",
+  "description": "Система Big Data аналитики и AI-ассистент для музеев, галерей, библиотек и учреждений культуры. От сырых показателей к управленческим решениям.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
